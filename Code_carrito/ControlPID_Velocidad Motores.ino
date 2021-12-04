@@ -1,17 +1,12 @@
 /*
- * ---------- OCONTROL DE VELOCIDAD BASADO EN UN CONTROLADOR PI PARA LA PLATAFORMA XSPACE v1.0----------
+ * ---------- CONTROL DE VELOCIDAD BASADO EN UN CONTROLADOR PI----------
  * 
- * Descripción: Este programa permite realizar un control de velocidad con un controlador PI sobre el contector
- *              del motor A + Encoder 1 con una referencia de 180 grados x segundo.
- * Version:     1.0
- * Creador:     Pablo Cárdenas Cáceres
- * Fecha:       25-09-2020 05:41pm
- *  
+ * Descripción: Este programa permite realizar un control de velocidad con un controlador PI
+ * Nota:     Adaptado de las sesiones de clase del curso de Sistemas de Control dictado por el profesor Pablo Cárdenas
  */
 
-#include <FreeRTOS_XSpace.h>
+#include <FreeRTOS.h>
 
-//STANDBY DEL TB6612FNG
 #define STBY 8
 
 //PARA CONTROLAR CON EL CONECTOR MOTOR A
